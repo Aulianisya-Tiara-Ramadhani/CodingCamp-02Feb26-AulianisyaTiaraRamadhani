@@ -13,7 +13,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 /* ===== CARD ===== */
 .todo-card {
   width: 640px;
@@ -175,3 +174,4 @@ h1 {
   color: #a8a4d8;
   font-style: italic;
 }
+
