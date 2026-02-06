@@ -7,7 +7,6 @@ const filterBtn = document.querySelector(".filter-btn");
 
 let todos = JSON.parse(localStorage.getItem("todos")) || [];
 let filterStatus = "all";
-
 renderTodos();
 
 // ADD TODO
@@ -98,3 +97,4 @@ function saveAndRender() {
   localStorage.setItem("todos", JSON.stringify(todos));
   renderTodos();
 }
+
